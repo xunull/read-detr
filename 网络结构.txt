@@ -1,0 +1,15 @@
+
+其他的部分是6个encoder，6个decoder，以及backbone部分
+
+(class_embed): Linear(in_features=256, out_features=81, bias=True)
+(bbox_embed): MLP(
+  (layers): ModuleList(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): Linear(in_features=256, out_features=256, bias=True)
+    (2): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+(query_embed): Embedding(100, 256)
+(input_proj): Conv2d(2048, 256, kernel_size=(1, 1), stride=(1, 1))
+
+
